@@ -52,7 +52,7 @@ for (i in 1:50000) {
 INITIAL_FORTUNE = 100
 W = 0 # proportion of fortune withheld
 
-set.seed(99999)
+set.seed(1)
 exampleHorses <- initializeHorses()
 example <- initializeRaceSimulation(exampleHorses)
 example
@@ -86,6 +86,8 @@ for (i in 1:1000) {
 #                          simultaneous wager (w = .2)                        #
 #                                                                             #
 ###############################################################################
+
+# not yet implemented, will always return 100 for the newFortune
 
 INITIAL_FORTUNE = 100
 W = .2 # proportion of fortune withheld
